@@ -1,5 +1,5 @@
 {
-  "siteVersion": "2.5.1",
+  "siteVersion": "2.5.2",
   "sourceId": "SPHA_20260817",
   "currentBrochure": {
     "filename": "SPHA_20260817.pdf",
@@ -14,11 +14,6 @@
     "appliancesPdfPages": "105–110",
     "appliancesPrintedPages": "103–108",
     "mechanicalPdfPages": "111–119"
-  },
-  "priorBrochure": {
-    "filename": "SPHA_20250122.pdf",
-    "pages": 133,
-    "url": "https://www.thehava.hk/upload/salesbrochure/SPHA_20250122.pdf"
   },
   "dmc": {
     "filename": "HAVA_DMC_dd_20251125_Reg20251209.pdf",
