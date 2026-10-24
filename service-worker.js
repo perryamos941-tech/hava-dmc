@@ -1,5 +1,5 @@
 /* v1.8: network-first for document and CSS/JS; no stale mobile layout after updates. */
-const CACHE='hava-dmc-drawings-v2.2';
+const CACHE='hava-dmc-drawings-v2.3';
 const CORE=['./','./index.html','./app.js','./style.css','./data/content.js','./assets/icon.svg','./manifest.webmanifest','./units.html','./drawings.html','./assets/units.js','./data/sales.json','./data/sales.js'];
 const THUMBS=Array.from({length:11},(_,i)=>`./plans/thumb-${77+i}.webp`);
 self.addEventListener('install',event=>event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll([...CORE,...THUMBS])).then(()=>self.skipWaiting())));

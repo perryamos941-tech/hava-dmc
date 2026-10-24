@@ -1,0 +1,129 @@
+{
+  "reference": "2025-01-22, PDF p105, printed p103",
+  "scope": "1A, floor 15, unit E",
+  "cross_reference": "raw checkmark at second floor-group column E x≈961 PDF pt",
+  "verified_rows": [
+    {
+      "category": "雙頭電磁爐 Double Induction Hob",
+      "brand": "西門子 Siemens",
+      "model": "EH375FBB1E",
+      "page": 105,
+      "column": "Tower 1 (1A) / 3/F,5-12/F,15-23/F,25-27/F / E",
+      "rowY": 248.0,
+      "checkColumnX": 961.0,
+      "check": "✓",
+      "audit": "verified_2025_pdf_page105"
+    },
+    {
+      "category": "抽拉式抽油煙機 Telescopic Type Cooker Hood",
+      "brand": "西門子 Siemens",
+      "model": "LI67SA531B",
+      "page": 105,
+      "column": "Tower 1 (1A) / 3/F,5-12/F,15-23/F,25-27/F / E",
+      "rowY": 326.8,
+      "checkColumnX": 961.2,
+      "check": "✓",
+      "audit": "verified_2025_pdf_page105"
+    },
+    {
+      "category": "雪櫃 Refrigerator",
+      "brand": "飛歌 Philco",
+      "model": "PBF7320NF",
+      "page": 105,
+      "column": "Tower 1 (1A) / 3/F,5-12/F,15-23/F,25-27/F / E",
+      "rowY": 374.1,
+      "checkColumnX": 961.3,
+      "check": "✓",
+      "audit": "verified_2025_pdf_page105"
+    },
+    {
+      "category": "微波爐 Microwave Oven",
+      "brand": "西門子 Siemens",
+      "model": "BE732L1B1B / BE732R1B1B",
+      "page": 105,
+      "column": "Tower 1 (1A) / 3/F,5-12/F,15-23/F,25-27/F / E",
+      "rowY": 405.6,
+      "checkColumnX": 961.3,
+      "check": "✓",
+      "audit": "verified_2025_pdf_page105"
+    },
+    {
+      "category": "洗衣乾衣機 Washer Dryer",
+      "brand": "飛歌 Philco",
+      "model": "PBS1485BI",
+      "page": 105,
+      "column": "Tower 1 (1A) / 3/F,5-12/F,15-23/F,25-27/F / E",
+      "rowY": 437.1,
+      "checkColumnX": 961.4,
+      "check": "✓",
+      "audit": "verified_2025_pdf_page105"
+    },
+    {
+      "category": "電熱水爐 Electric Water Heater",
+      "brand": "斯寶亞創 Stiebel Eltron",
+      "model": "HDB-E27Trend",
+      "page": 105,
+      "column": "Tower 1 (1A) / 3/F,5-12/F,15-23/F,25-27/F / E",
+      "rowY": 468.6,
+      "checkColumnX": 961.0,
+      "check": "✓",
+      "audit": "verified_2025_pdf_page105"
+    },
+    {
+      "category": "浴室寶 Thermal Ventilator",
+      "brand": "Panasonic",
+      "model": "FV-40BE3H2",
+      "page": 105,
+      "column": "Tower 1 (1A) / 3/F,5-12/F,15-23/F,25-27/F / E",
+      "rowY": 501.2,
+      "checkColumnX": 961.1,
+      "check": "✓",
+      "audit": "verified_2025_pdf_page105"
+    },
+    {
+      "category": "浴室寶 Thermal Ventilator",
+      "brand": "Panasonic",
+      "model": "FV-02NU1H",
+      "page": 105,
+      "column": "Tower 1 (1A) / 3/F,5-12/F,15-23/F,25-27/F / E",
+      "rowY": 515.9,
+      "checkColumnX": 961.1,
+      "check": "✓",
+      "audit": "verified_2025_pdf_page105"
+    },
+    {
+      "category": "多聯式分體空調機（室內機） Multi Split Type Air-conditioner (Indoor Unit)",
+      "brand": "東芝 Toshiba",
+      "model": "RAS-M10N4KV",
+      "page": 105,
+      "column": "Tower 1 (1A) / 3/F,5-12/F,15-23/F,25-27/F / E",
+      "rowY": 641.9,
+      "checkColumnX": 961.4,
+      "check": "✓",
+      "audit": "verified_2025_pdf_page105"
+    },
+    {
+      "category": "多聯式分體空調機（室內機） Multi Split Type Air-conditioner (Indoor Unit)",
+      "brand": "東芝 Toshiba",
+      "model": "RAS-M22N4KV",
+      "page": 105,
+      "column": "Tower 1 (1A) / 3/F,5-12/F,15-23/F,25-27/F / E",
+      "rowY": 657.7,
+      "checkColumnX": 961.4,
+      "check": "✓",
+      "audit": "verified_2025_pdf_page105"
+    },
+    {
+      "category": "多聯式分體空調機（室外機） Multi Split Type Air-conditioner (Outdoor Unit)",
+      "brand": "東芝 Toshiba",
+      "model": "RAS-4M27S3AV-E",
+      "page": 105,
+      "column": "Tower 1 (1A) / 3/F,5-12/F,15-23/F,25-27/F / E",
+      "rowY": 680.3,
+      "checkColumnX": 961.5,
+      "check": "✓",
+      "audit": "verified_2025_pdf_page105"
+    }
+  ],
+  "compared_against_2026": false
+}
