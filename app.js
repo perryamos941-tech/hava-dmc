@@ -115,5 +115,5 @@ if(state.section!=='all'&&!data.sections.some(s=>s.id===state.section))state.sec
 render();
 if(state.view==='plans'&&PLAN_PAGES.includes(state.plan))showPlan(state.plan);
 
-if(location.protocol==='https:'&&'serviceWorker' in navigator)navigator.serviceWorker.register('./service-worker.js').catch(()=>{});
+if(location.protocol==='https:'&&'serviceWorker' in navigator)navigator.serviceWorker.register('./service-worker.js',{updateViaCache:'none'}).then(r=>r.update().catch(()=>{})).catch(()=>{});
 })();

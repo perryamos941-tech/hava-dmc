@@ -25,3 +25,72 @@ body.plan-modal-open{overflow:hidden}.plan-lightbox{position:fixed;inset:0;z-ind
 /* v1.7 — exact bilingual Drawing Titles from source drawings */
 .plan-title-lines{margin:0 0 8px;min-height:73px}.plan-tile-body .plan-title-lines h3{font-size:15px;line-height:1.48;font-weight:800;margin:0;color:var(--ink)}.plan-original-drawing-title{font-size:12px!important;line-height:1.45;margin:5px 0 0!important;color:var(--ink2)!important;font-weight:600;overflow-wrap:anywhere}.plan-alt-traditional{font-size:11px!important;color:var(--faint);margin:4px 0 0!important}.plan-tile-body .plan-page-ref{font-size:11px;margin:9px 0 13px;color:var(--faint)}.lightbox-name{display:flex;flex-direction:column;gap:1px;line-height:1.3;white-space:normal;max-width:min(560px,55vw)}.lightbox-name strong{font-size:12px}.lightbox-name span{font-size:12px;font-weight:500;color:#bdf1df}.lightbox-name small{color:#a7c8d0;font-size:10px}.plan-thumb-btn:focus-visible,.main-nav-tab:focus-visible{outline:3px solid #0c9488;outline-offset:3px}
 @media(max-width:540px){.lightbox-name{max-width:100%}.lightbox-name strong{font-size:11px}.lightbox-name span{font-size:11px}.plan-title-lines{min-height:0}}
+
+
+/* v1.8 phone usability & resilient drawing gallery, overrides previous design */
+html,body{max-width:100%;overflow-x:clip}
+img{max-width:100%}
+.plans-intro-copy,.plan-gallery,.plans-intro,.plan-tile-body,.plan-title-lines{min-width:0}
+.plan-thumb-btn{overflow:hidden;touch-action:manipulation}
+.plan-thumb-btn img{object-fit:contain;object-position:center;background:#f9fbfb}
+.plan-tile-body .plan-title-lines h3{overflow-wrap:anywhere}
+.plan-tile-actions button,.plan-tile-actions a{min-height:44px}
+.main-nav-tab{transition:background-color .15s,border-color .15s}
+@media(max-width:700px){
+  .page-wrap{width:calc(100% - 24px);max-width:100%}
+  .site-head .head-inner{padding:15px 0 18px}
+  .site-head .hero{padding-top:16px;gap:12px}
+  .site-head .hero h1{font-size:clamp(22px,6vw,27px);margin-bottom:5px}
+  .site-head .hero p{font-size:12px;line-height:1.55}
+  .hero-stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:6px}
+  .hero-stats div{min-width:0;padding:7px 3px}
+  .hero-stats strong{font-size:17px}.hero-stats small{font-size:10px}
+  .notice{font-size:12px;line-height:1.52;padding:10px 12px;margin:12px 0;border-radius:11px}
+  .source-bar{padding:10px 12px;margin:8px 0 12px;font-size:12px;gap:3px}
+  .source-bar a{font-size:12px}
+  .main-nav{display:grid;grid-template-columns:1fr 1fr;gap:9px;margin:12px 0 14px}
+  .main-nav-tab{display:flex;align-items:center;justify-content:center;gap:5px;border-radius:13px;min-width:0;padding:10px 7px;min-height:46px;font-size:13px}
+  .nav-count{margin:0;font-size:10px}
+  .plans-intro{padding:16px;display:grid;grid-template-columns:minmax(0,1fr) auto;gap:5px 12px;margin-bottom:13px;border-radius:14px}
+  .plans-intro h2{font-size:20px;line-height:1.38;margin:3px 0 7px}
+  .plans-intro p{font-size:12px;line-height:1.62;margin:5px 0;max-width:100%}
+  .plans-intro .small-note{font-size:11px;line-height:1.55;margin-top:8px}
+  .plans-big-number{font-size:28px;line-height:1;align-self:start;padding:4px 0 0;min-width:32px;text-align:center}
+  .plans-big-number small{font-size:11px;margin-top:4px}
+  .plan-gallery{padding-bottom:22px}
+  .plan-grid{display:grid;grid-template-columns:minmax(0,1fr);gap:14px}
+  .plan-tile{width:100%;min-width:0;border-radius:14px}
+  .plan-thumb-btn{width:100%;aspect-ratio:1.42;max-height:300px;border-radius:13px 13px 0 0}
+  .plan-thumb-btn img{width:100%;height:100%;display:block;object-fit:contain}
+  .plan-zoom-symbol{width:35px;height:35px;right:11px;bottom:11px}
+  .plan-tile-body{padding:15px 16px 16px}
+  .plan-title-lines{min-height:0;margin:0 0 6px}
+  .plan-tile-body .plan-title-lines h3{font-size:16px;line-height:1.45;letter-spacing:0}
+  .plan-tile-body .plan-original-drawing-title{font-size:12px!important;line-height:1.5;margin:5px 0 0!important;letter-spacing:.01em}
+  .plan-tile-body .plan-page-ref{font-size:11px;margin:9px 0 12px}
+  .plan-tile-actions{display:grid;grid-template-columns:minmax(0,1fr) minmax(90px,34%);gap:9px}
+  .plan-tile-actions .secondary-btn,.plan-tile-actions .link-btn{width:100%;min-width:0;min-height:44px;padding:10px 7px;font-size:12px;justify-content:center;border-radius:10px}
+  .plans-disclaimer{font-size:11px;line-height:1.65;padding:13px 14px;margin-top:14px}
+  .footnote{overflow-wrap:anywhere;font-size:10px;margin-top:18px}
+  .plan-lightbox-toolbar{padding:calc(8px + env(safe-area-inset-top,0px)) 10px 7px;gap:7px}
+  .lightbox-name{width:100%;max-width:100%;min-width:0;line-height:1.35}
+  .lightbox-name strong{font-size:12px;overflow-wrap:anywhere}
+  .lightbox-name span{font-size:11px;overflow-wrap:anywhere}
+  .lightbox-name small{font-size:10px}
+  .lightbox-tools{display:grid;grid-template-columns:repeat(2,minmax(40px,1fr)) minmax(40px,1fr) 42px minmax(40px,1fr) minmax(40px,1fr) minmax(40px,1fr);gap:5px;align-items:center;width:100%}
+  .lightbox-tools button{min-width:0;min-height:40px;font-size:19px;padding:0}
+  .plan-zoom-label{font-size:11px;min-width:0}
+  .plan-lightbox-bottom{padding:8px 12px calc(8px + env(safe-area-inset-bottom,0px));gap:6px;font-size:10px;line-height:1.45}
+  .plan-bottom-links{display:flex;justify-content:space-between;gap:14px;width:100%}
+  .plan-bottom-links a{font-size:11px}
+  .plan-viewport{min-height:0}
+}
+@media(max-width:360px){
+  .page-wrap{width:calc(100% - 18px)}
+  .plans-intro{padding:13px;gap:4px 7px}
+  .plans-intro h2{font-size:18px}
+  .plan-tile-body{padding:13px}
+  .main-nav-tab{font-size:12px;padding-inline:3px}
+  .lightbox-tools{gap:3px;grid-template-columns:repeat(3,minmax(32px,1fr)) 37px repeat(3,minmax(32px,1fr))}
+  .lightbox-tools button{min-height:38px;font-size:18px}
+}

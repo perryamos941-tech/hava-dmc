@@ -1,9 +1,13 @@
-const CACHE = 'hava-dmc-drawings-v1.7';
-const ASSETS = ['./', './index.html','./app.js','./style.css','./data/content.js','./assets/icon.svg','./manifest.webmanifest','./plans/thumb-77.webp','./plans/thumb-78.webp','./plans/thumb-79.webp','./plans/thumb-80.webp','./plans/thumb-81.webp','./plans/thumb-82.webp','./plans/thumb-83.webp','./plans/thumb-84.webp','./plans/thumb-85.webp','./plans/thumb-86.webp','./plans/thumb-87.webp'];
-self.addEventListener('install',e=>e.waitUntil(caches.open(CACHE).then(c=>c.addAll(ASSETS)).then(()=>self.skipWaiting())));
-self.addEventListener('activate',e=>e.waitUntil(caches.keys().then(k=>Promise.all(k.filter(x=>x.startsWith('hava-dmc-')&&x!==CACHE).map(x=>caches.delete(x)))).then(()=>self.clients.claim())));
-self.addEventListener('fetch',e=>{const req=e.request;if(req.method!=='GET'||new URL(req.url).origin!==self.location.origin)return;if(req.url.includes('/original/'))return; // source PDF never pre-cached
- const critical=/\/(?:app\.js|index\.html|data\/content\.js)$/.test(new URL(req.url).pathname);
- if(critical){e.respondWith(fetch(req).then(res=>{if(res.ok){const cp=res.clone();caches.open(CACHE).then(c=>c.put(req,cp));}return res;}).catch(()=>caches.match(req)));return;}
- e.respondWith(caches.match(req).then(cached=>cached||fetch(req).then(res=>{if(res.ok){const cp=res.clone();caches.open(CACHE).then(c=>c.put(req,cp))}return res;})));
+/* v1.8: network-first for document and CSS/JS; no stale mobile layout after updates. */
+const CACHE='hava-dmc-drawings-v1.8';
+const CORE=['./','./index.html','./app.js','./style.css','./data/content.js','./assets/icon.svg','./manifest.webmanifest'];
+const THUMBS=Array.from({length:11},(_,i)=>`./plans/thumb-${77+i}.webp`);
+self.addEventListener('install',event=>event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll([...CORE,...THUMBS])).then(()=>self.skipWaiting())));
+self.addEventListener('activate',event=>event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(key=>key.startsWith('hava-dmc-')&&key!==CACHE).map(key=>caches.delete(key)))).then(()=>self.clients.claim())));
+self.addEventListener('fetch',event=>{
+ const req=event.request;const url=new URL(req.url);
+ if(req.method!=='GET'||url.origin!==self.location.origin)return;
+ const isCritical=req.mode==='navigate'||/\/(?:index\.html|app\.js|style\.css|service-worker\.js|data\/content\.js)$/.test(url.pathname);
+ if(isCritical){event.respondWith(fetch(req).then(res=>{if(res.ok){let copy=res.clone();event.waitUntil(caches.open(CACHE).then(cache=>cache.put(req,copy)))}return res}).catch(async()=>await caches.match(req)||await caches.match('./index.html')||Response.error()));return;}
+ event.respondWith(caches.match(req).then(cached=>cached||fetch(req).then(res=>{if(res.ok){const copy=res.clone();event.waitUntil(caches.open(CACHE).then(cache=>cache.put(req,copy)))}return res})))
 });
