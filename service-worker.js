@@ -1,0 +1,9 @@
+const CACHE = 'hava-dmc-github-external-pdf-1';
+const ASSETS = ['./', './index.html','./app.js','./style.css','./data/content.js','./assets/icon.svg','./manifest.webmanifest'];
+self.addEventListener('install',e=>e.waitUntil(caches.open(CACHE).then(c=>c.addAll(ASSETS)).then(()=>self.skipWaiting())));
+self.addEventListener('activate',e=>e.waitUntil(caches.keys().then(k=>Promise.all(k.filter(x=>x.startsWith('hava-dmc-')&&x!==CACHE).map(x=>caches.delete(x)))).then(()=>self.clients.claim())));
+self.addEventListener('fetch',e=>{const req=e.request;if(req.method!=='GET'||new URL(req.url).origin!==self.location.origin)return;if(req.url.includes('/original/'))return; // source PDF never pre-cached
+ const critical=/\/(?:app\.js|index\.html|data\/content\.js)$/.test(new URL(req.url).pathname);
+ if(critical){e.respondWith(fetch(req).then(res=>{if(res.ok){const cp=res.clone();caches.open(CACHE).then(c=>c.put(req,cp));}return res;}).catch(()=>caches.match(req)));return;}
+ e.respondWith(caches.match(req).then(cached=>cached||fetch(req).then(res=>{if(res.ok){const cp=res.clone();caches.open(CACHE).then(c=>c.put(req,cp))}return res;})));
+});
