@@ -1,0 +1,158 @@
+[
+  {
+    "page": 15,
+    "tc": "發展項目的位置圖",
+    "en": "Location Plan",
+    "cat": "location"
+  },
+  {
+    "page": 20,
+    "tc": "分區計劃大綱圖（一）",
+    "en": "Outline Zoning Plan (1)",
+    "cat": "location"
+  },
+  {
+    "page": 21,
+    "tc": "分區計劃大綱圖（二）",
+    "en": "Outline Zoning Plan (2)",
+    "cat": "location"
+  },
+  {
+    "page": 22,
+    "tc": "發展項目布局圖",
+    "en": "Layout Plan of the Development",
+    "cat": "development"
+  },
+  {
+    "page": 23,
+    "tc": "樓面圖圖例（一）",
+    "en": "Floor Plan Legend (1)",
+    "cat": "legend"
+  },
+  {
+    "page": 24,
+    "tc": "樓面圖圖例（二）",
+    "en": "Floor Plan Legend (2)",
+    "cat": "legend"
+  },
+  {
+    "page": 26,
+    "tc": "第1座（1A）二樓平面圖",
+    "en": "Tower 1 (1A) 2/F Floor Plan",
+    "cat": "residential"
+  },
+  {
+    "page": 28,
+    "tc": "第1座（1A）標準樓層平面圖",
+    "en": "Tower 1 (1A) Typical Floor Plan",
+    "cat": "residential"
+  },
+  {
+    "page": 30,
+    "tc": "第1座（1A）二十八樓平面圖",
+    "en": "Tower 1 (1A) 28/F Floor Plan",
+    "cat": "residential"
+  },
+  {
+    "page": 32,
+    "tc": "第1座（1A）天台平面圖",
+    "en": "Tower 1 (1A) Roof Plan",
+    "cat": "roof"
+  },
+  {
+    "page": 34,
+    "tc": "第1座（1B）二樓平面圖",
+    "en": "Tower 1 (1B) 2/F Floor Plan",
+    "cat": "residential"
+  },
+  {
+    "page": 36,
+    "tc": "第1座（1B）標準樓層平面圖",
+    "en": "Tower 1 (1B) Typical Floor Plan",
+    "cat": "residential"
+  },
+  {
+    "page": 38,
+    "tc": "第1座（1B）二十八樓平面圖",
+    "en": "Tower 1 (1B) 28/F Floor Plan",
+    "cat": "residential"
+  },
+  {
+    "page": 40,
+    "tc": "第1座（1B）天台平面圖",
+    "en": "Tower 1 (1B) Roof Plan",
+    "cat": "roof"
+  },
+  {
+    "page": 42,
+    "tc": "第2座二樓平面圖",
+    "en": "Tower 2 2/F Floor Plan",
+    "cat": "residential"
+  },
+  {
+    "page": 44,
+    "tc": "第2座標準樓層平面圖",
+    "en": "Tower 2 Typical Floor Plan",
+    "cat": "residential"
+  },
+  {
+    "page": 46,
+    "tc": "第2座二十七樓平面圖",
+    "en": "Tower 2 27/F Floor Plan",
+    "cat": "residential"
+  },
+  {
+    "page": 48,
+    "tc": "第2座天台平面圖",
+    "en": "Tower 2 Roof Plan",
+    "cat": "roof"
+  },
+  {
+    "page": 65,
+    "tc": "單車停車位平面圖",
+    "en": "Bicycle Parking Space Plan",
+    "cat": "parking"
+  },
+  {
+    "page": 66,
+    "tc": "停車位平面圖",
+    "en": "Parking Space Floor Plan",
+    "cat": "parking"
+  },
+  {
+    "page": 85,
+    "tc": "公共設施及公眾休憩用地位置圖",
+    "en": "Public Facilities and Public Open Spaces Plan",
+    "cat": "development"
+  },
+  {
+    "page": 87,
+    "tc": "建築物橫截面圖（一）",
+    "en": "Building Cross-section Plan (1)",
+    "cat": "section"
+  },
+  {
+    "page": 88,
+    "tc": "建築物橫截面圖（二）",
+    "en": "Building Cross-section Plan (2)",
+    "cat": "section"
+  },
+  {
+    "page": 89,
+    "tc": "建築物橫截面圖（三）",
+    "en": "Building Cross-section Plan (3)",
+    "cat": "section"
+  },
+  {
+    "page": 90,
+    "tc": "建築物立面圖（一）",
+    "en": "Elevation Plan (1)",
+    "cat": "elevation"
+  },
+  {
+    "page": 91,
+    "tc": "建築物立面圖（二）",
+    "en": "Elevation Plan (2)",
+    "cat": "elevation"
+  }
+]
