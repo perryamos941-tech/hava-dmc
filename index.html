@@ -4,7 +4,7 @@
 <meta name="referrer" content="no-referrer"/>
 <meta name="robots" content="noindex,follow"/>
 <meta name="color-scheme" content="light dark"/>
-<title>HAVA 公契查閱｜非官方繁體簡體英文搜尋</title>
+<title>HAVA 業主資訊｜非官方繁體簡體英文搜尋</title>
 <meta name="description" content="HAVA 公契非官方繁簡英文檢索與條款對照。OCR 和中文初譯未經校對，應核對 HAVA 官網英文原頁。"/>
 <link rel="manifest" href="manifest.webmanifest"/>
 <link rel="icon" type="image/svg+xml" href="assets/icon.svg"/>
@@ -105,8 +105,12 @@ img{max-width:100%}
   .lightbox-tools{gap:3px;grid-template-columns:repeat(3,minmax(32px,1fr)) 37px repeat(3,minmax(32px,1fr))}
   .lightbox-tools button{min-height:38px;font-size:18px}
 }
+/* v2.1: third navigation item and responsive 3-column nav */
+.units-main-link{text-decoration:none;display:inline-flex;align-items:center;justify-content:center}.units-main-link:hover{color:var(--ink);background:var(--pale)}
+@media(max-width:700px){.main-nav{grid-template-columns:repeat(3,minmax(0,1fr))}.main-nav-tab{padding:10px 3px;font-size:12px;white-space:normal;text-align:center;line-height:1.3}.nav-count{font-size:9px}}
+@media(max-width:360px){.main-nav-tab{font-size:11px}}
 </style>
-<script defer src="data/content.js?v=1.8"></script><script defer src="app.js?v=1.8"></script>
+<script defer src="data/content.js?v=2.1"></script><script defer src="app.js?v=2.1"></script>
 </head><body>
 <div id="app" class="app-shell"><noscript>請啟用 JavaScript 才可使用本公契搜尋工具。</noscript></div>
 </body></html>
