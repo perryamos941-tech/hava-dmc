@@ -5,7 +5,7 @@
 <meta name="robots" content="noindex,follow"/>
 <meta name="color-scheme" content="light dark"/>
 <title>HAVA 業主資訊｜非官方繁體簡體英文搜尋</title>
-<meta name="description" content="HAVA 公契非官方繁簡英文檢索與條款對照。OCR 和中文初譯未經校對，應核對 HAVA 官網英文原頁。"/>
+<meta name="description" content="HAVA 公契非官方繁簡英文檢索與條款對照。英文 OCR 尚待逐字核對；繁體內容取自提供的中文公契原文，應核對 HAVA 官網英文原頁。"/>
 <link rel="manifest" href="manifest.webmanifest"/>
 <link rel="icon" type="image/svg+xml" href="assets/icon.svg"/>
 <!-- v1.8: critical and full layout CSS embedded to avoid stale mobile CSS caches -->
@@ -113,8 +113,19 @@ img{max-width:100%}
 .quality-floating-link{position:fixed;right:12px;bottom:calc(12px + env(safe-area-inset-bottom,0px));z-index:25;display:inline-block;background:#163e51;color:white;border:1px solid #b7dad3;border-radius:24px;padding:9px 14px;font:600 12px/1.4 system-ui,sans-serif;text-decoration:none;box-shadow:0 6px 24px #001e2a33}
 .quality-floating-link:hover{background:#0a7772;color:white}
 @media(max-width:700px){.quality-floating-link{font-size:11px;padding:8px 11px;right:9px;bottom:calc(7px + env(safe-area-inset-bottom,0px))}}
+.search-review-hint{font-size:11px;color:var(--teal);font-weight:750;margin:0 0 5px}.second-review-note{display:flex;flex-direction:column;gap:5px;background:#edf6f7;border:1px solid #b7d5dc;border-left:4px solid #317588;border-radius:10px;padding:12px 14px;margin:12px 0;font-size:12px;color:#244c5b}.second-review-note strong{font-size:12px}.second-review-note span{line-height:1.65}.second-review-note a{align-self:flex-start;font-weight:700;color:#087d80}.review-partial{background:#fff8e9;border-color:#e6c994;border-left-color:#b7822b;color:#79521c}.second-review-top{margin-top:8px!important;font-weight:650}.second-review-top a{font-weight:750;text-decoration:underline}.second-review-note a:focus-visible{outline:3px solid #238d88;outline-offset:2px}[data-theme='dark'] .second-review-note{background:#19363e;color:#c5e6ed;border-color:#3b6870}[data-theme='dark'] .review-partial{background:#3b2e1b;color:#ffe0a4;border-color:#70582a}
+
+
+/* v2.5.7 — confirmed English/Chinese wording differences, distinct from deed text */
+.dmc-inline-discrepancy{display:block;color:#a01722!important;font:700 13px/1.7 system-ui,"Noto Sans TC",sans-serif!important;background:#fff1ef;border-left:4px solid #c72a35;margin:11px 0 13px;padding:10px 12px;border-radius:7px;white-space:normal;overflow-wrap:anywhere}
+.dmc-inline-discrepancy a,.dmc-discrepancy-summary a{color:#991b26!important;text-decoration:underline;text-underline-offset:3px}
+.dmc-discrepancy-summary{color:#951726!important;background:#fff3f1;border:1px solid #ebbbbd;border-left:4px solid #b82732;border-radius:8px;padding:10px 12px;font-size:12px;font-weight:700;line-height:1.6;margin:12px 0}
+[data-theme=dark] .dmc-inline-discrepancy,[data-theme=dark] .dmc-discrepancy-summary{background:#402329;color:#ffd7d8!important;border-color:#c85a60}
+[data-theme=dark] .dmc-inline-discrepancy a,[data-theme=dark] .dmc-discrepancy-summary a{color:#ffbfc5!important}
+@media(max-width:600px){.dmc-inline-discrepancy{font-size:12px;padding:10px;line-height:1.6}}
+
 </style>
-<script defer src="data/content.js?v=2.5.4"></script><script defer src="app.js?v=2.5.4"></script>
+<script defer src="data/content.js?v=2.5.7"></script><script defer src="app.js?v=2.5.7"></script>
 </head><body>
 <a class="quality-floating-link" href="quality.html" title="2026售樓說明書及DMC資料核對情況">來源及核對狀態 ↗</a>
 <div id="app" class="app-shell"><noscript>請啟用 JavaScript 才可使用本公契搜尋工具。</noscript></div>

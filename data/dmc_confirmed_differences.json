@@ -1,0 +1,53 @@
+{
+  "version": "2.5.7",
+  "review_date": "2026-10-26",
+  "status": "confirmed_differences_not_full_equivalence",
+  "source_english_pdf": "https://www.thehava.hk/upload/dmc/HAVA_DMC_dd_20251125_Reg20251209.pdf",
+  "number_of_clauses": 4,
+  "number_of_issues": 5,
+  "issues": {
+    "8": [
+      {
+        "sub": "c",
+        "enPage": 14,
+        "tc": "中文寫「業主本人、其被許可人或其他第三方有權」，英文屬第8條賦予第一業主（First Owner）的權利。權利主體不同，請按英文原文核對。",
+        "sc": "中文写「业主本人、其被许可人或其他第三方有权」，英文属第8条赋予第一业主（First Owner）的权利。权利主体不同，请按英文原文核对。",
+        "en": "Clause 8(c): the Chinese text refers to owners themselves; the English wording concerns the First Owner’s reserved right."
+      },
+      {
+        "sub": "e",
+        "enPage": 14,
+        "tc": "中文寫「業主有權調整及／或重新劃定地段邊界」，英文為第8條賦予第一業主的權利，並須按第61條取得業主大會事先書面批准。權利主體不同。",
+        "sc": "中文写「业主有权调整及／或重新划定地段边界」，英文为第8条赋予第一业主的权利，并须按第61条取得业主大会事先书面批准。权利主体不同。",
+        "en": "Clause 8(e): the Chinese wording attributes the boundary-alignment right to owners; the English clause reserves it to the First Owner, subject to approval."
+      }
+    ],
+    "10": [
+      {
+        "sub": "main",
+        "enPage": 16,
+        "tc": "中文「在業主委員會成立之前」，英文為「prior to the formation of the Owners’ Corporation」（業主立案法團成立之前）；兩者並非同一組織。",
+        "sc": "中文「在业主委员会成立之前」，英文为「prior to the formation of the Owners’ Corporation」（业主立案法团成立之前）；两者并非同一组织。",
+        "en": "Clause 10: the Chinese text says Owners’ Committee; the English says prior to formation of the Owners’ Corporation."
+      }
+    ],
+    "13": [
+      {
+        "sub": "a",
+        "enPage": 18,
+        "tc": "中文將決議主體寫為「業主委員會」，英文原文為「Owners’ Corporation」（業主立案法團）。這會影響誰有權終止管理人委任。",
+        "sc": "中文将决议主体写为「业主委员会」，英文原文为「Owners’ Corporation」（业主立案法团）。这会影响谁有权终止管理人委任。",
+        "en": "Clause 13(a): the Chinese text identifies the Owners’ Committee, but the English identifies the Owners’ Corporation."
+      }
+    ],
+    "62": [
+      {
+        "sub": "main",
+        "enPage": 53,
+        "tc": "英文為「may convene」，表示可以召開；中文寫「須召開」。英文的75%份數門檻亦可按「整個屋苑或受影響部分」計算，而中文僅寫受損部分。兩處均屬實質差異。",
+        "sc": "英文为「may convene」，表示可以召开；中文写「须召开」。英文的75%份数门槛亦可按「整个屋苑或受影响部分」计算，而中文仅写受损部分。两处均属实质差异。",
+        "en": "Clause 62: “may convene” differs from the Chinese mandatory language, and the Chinese omits the whole-Estate alternative for the 75% threshold."
+      }
+    ]
+  }
+}

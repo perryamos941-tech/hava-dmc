@@ -1,0 +1,784 @@
+{
+  "source": {
+    "filename": "SPH Site A DMC v9 engrossment clean-Chinese.pdf",
+    "websitePdf": "https://www.thehava.hk/upload/dmc/HAVA_DMC_dd_20251125_Reg20251209.pdf",
+    "pdfPages": 98,
+    "sourceDate": "2025-11-25",
+    "sha256": "4dfcc4779fb987a6b2d914d628838ed204b4062e9e376fbe4bf28f81c37a011e",
+    "provenance": "Uploaded by user and identified as official Chinese version; v9 engrossment clean PDF. Independent confirmation of certification, land registry status and equivalence to registered English DMC not provided.",
+    "reviewStatus": "confirmed_material_differences_in_8c_8e_10_13a_62_no_full_sentence_signoff",
+    "translationMethod": "Traditional: document text extracted verbatim (layout line wraps normalized only); Simplified: ICU Traditional-Simplified text conversion, not official legal version",
+    "scNote": "簡體中文為自動字形及詞彙轉換版，不屬文件原件。",
+    "originalChinesePdfNotPublic": "Chinese PDF was provided privately; public PDF controls point to registered English version."
+  },
+  "clauses": [
+    {
+      "id": "1",
+      "pages": [
+        15
+      ],
+      "traditional_chars": 173,
+      "simplified_chars": 173
+    },
+    {
+      "id": "2",
+      "pages": [
+        15
+      ],
+      "traditional_chars": 122,
+      "simplified_chars": 122
+    },
+    {
+      "id": "3",
+      "pages": [
+        15
+      ],
+      "traditional_chars": 116,
+      "simplified_chars": 116
+    },
+    {
+      "id": "4",
+      "pages": [
+        15
+      ],
+      "traditional_chars": 66,
+      "simplified_chars": 66
+    },
+    {
+      "id": "5",
+      "pages": [
+        15
+      ],
+      "traditional_chars": 289,
+      "simplified_chars": 289
+    },
+    {
+      "id": "6",
+      "pages": [
+        15,
+        16
+      ],
+      "traditional_chars": 109,
+      "simplified_chars": 109
+    },
+    {
+      "id": "7",
+      "pages": [
+        16,
+        17
+      ],
+      "traditional_chars": 673,
+      "simplified_chars": 673
+    },
+    {
+      "id": "8",
+      "pages": [
+        17,
+        18,
+        19
+      ],
+      "traditional_chars": 2749,
+      "simplified_chars": 2749
+    },
+    {
+      "id": "9",
+      "pages": [
+        19,
+        20,
+        21
+      ],
+      "traditional_chars": 1286,
+      "simplified_chars": 1286
+    },
+    {
+      "id": "10",
+      "pages": [
+        21
+      ],
+      "traditional_chars": 469,
+      "simplified_chars": 469
+    },
+    {
+      "id": "11",
+      "pages": [
+        21,
+        22
+      ],
+      "traditional_chars": 1425,
+      "simplified_chars": 1425
+    },
+    {
+      "id": "12",
+      "pages": [
+        22,
+        23
+      ],
+      "traditional_chars": 365,
+      "simplified_chars": 365
+    },
+    {
+      "id": "13",
+      "pages": [
+        23,
+        24
+      ],
+      "traditional_chars": 1765,
+      "simplified_chars": 1765
+    },
+    {
+      "id": "14",
+      "pages": [
+        24,
+        25
+      ],
+      "traditional_chars": 543,
+      "simplified_chars": 543
+    },
+    {
+      "id": "15",
+      "pages": [
+        25,
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "traditional_chars": 5106,
+      "simplified_chars": 5106
+    },
+    {
+      "id": "16",
+      "pages": [
+        30,
+        31,
+        32
+      ],
+      "traditional_chars": 1196,
+      "simplified_chars": 1196
+    },
+    {
+      "id": "17",
+      "pages": [
+        32
+      ],
+      "traditional_chars": 399,
+      "simplified_chars": 399
+    },
+    {
+      "id": "18",
+      "pages": [
+        32
+      ],
+      "traditional_chars": 144,
+      "simplified_chars": 144
+    },
+    {
+      "id": "19",
+      "pages": [
+        32,
+        33,
+        34,
+        35,
+        36
+      ],
+      "traditional_chars": 3202,
+      "simplified_chars": 3202
+    },
+    {
+      "id": "20",
+      "pages": [
+        36,
+        37
+      ],
+      "traditional_chars": 2092,
+      "simplified_chars": 2092
+    },
+    {
+      "id": "21",
+      "pages": [
+        37,
+        38
+      ],
+      "traditional_chars": 88,
+      "simplified_chars": 88
+    },
+    {
+      "id": "22",
+      "pages": [
+        38
+      ],
+      "traditional_chars": 762,
+      "simplified_chars": 762
+    },
+    {
+      "id": "23",
+      "pages": [
+        38,
+        39
+      ],
+      "traditional_chars": 1302,
+      "simplified_chars": 1302
+    },
+    {
+      "id": "24",
+      "pages": [
+        39,
+        40
+      ],
+      "traditional_chars": 228,
+      "simplified_chars": 228
+    },
+    {
+      "id": "25",
+      "pages": [
+        40
+      ],
+      "traditional_chars": 114,
+      "simplified_chars": 114
+    },
+    {
+      "id": "26",
+      "pages": [
+        40
+      ],
+      "traditional_chars": 224,
+      "simplified_chars": 224
+    },
+    {
+      "id": "27",
+      "pages": [
+        40
+      ],
+      "traditional_chars": 414,
+      "simplified_chars": 414
+    },
+    {
+      "id": "28",
+      "pages": [
+        40,
+        41
+      ],
+      "traditional_chars": 473,
+      "simplified_chars": 473
+    },
+    {
+      "id": "29",
+      "pages": [
+        41
+      ],
+      "traditional_chars": 125,
+      "simplified_chars": 125
+    },
+    {
+      "id": "30",
+      "pages": [
+        41
+      ],
+      "traditional_chars": 159,
+      "simplified_chars": 159
+    },
+    {
+      "id": "31",
+      "pages": [
+        41
+      ],
+      "traditional_chars": 89,
+      "simplified_chars": 89
+    },
+    {
+      "id": "32",
+      "pages": [
+        41
+      ],
+      "traditional_chars": 166,
+      "simplified_chars": 166
+    },
+    {
+      "id": "33",
+      "pages": [
+        41
+      ],
+      "traditional_chars": 93,
+      "simplified_chars": 93
+    },
+    {
+      "id": "34",
+      "pages": [
+        41,
+        42
+      ],
+      "traditional_chars": 419,
+      "simplified_chars": 419
+    },
+    {
+      "id": "35",
+      "pages": [
+        42,
+        43
+      ],
+      "traditional_chars": 1461,
+      "simplified_chars": 1461
+    },
+    {
+      "id": "36",
+      "pages": [
+        43,
+        44
+      ],
+      "traditional_chars": 756,
+      "simplified_chars": 756
+    },
+    {
+      "id": "37",
+      "pages": [
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53
+      ],
+      "traditional_chars": 9344,
+      "simplified_chars": 9344
+    },
+    {
+      "id": "38",
+      "pages": [
+        53,
+        54
+      ],
+      "traditional_chars": 516,
+      "simplified_chars": 516
+    },
+    {
+      "id": "39",
+      "pages": [
+        54,
+        55
+      ],
+      "traditional_chars": 1214,
+      "simplified_chars": 1214
+    },
+    {
+      "id": "40",
+      "pages": [
+        55
+      ],
+      "traditional_chars": 243,
+      "simplified_chars": 243
+    },
+    {
+      "id": "41",
+      "pages": [
+        55
+      ],
+      "traditional_chars": 165,
+      "simplified_chars": 165
+    },
+    {
+      "id": "42",
+      "pages": [
+        55
+      ],
+      "traditional_chars": 57,
+      "simplified_chars": 57
+    },
+    {
+      "id": "43",
+      "pages": [
+        55,
+        56,
+        57
+      ],
+      "traditional_chars": 742,
+      "simplified_chars": 742
+    },
+    {
+      "id": "44",
+      "pages": [
+        57
+      ],
+      "traditional_chars": 707,
+      "simplified_chars": 707
+    },
+    {
+      "id": "45",
+      "pages": [
+        57
+      ],
+      "traditional_chars": 141,
+      "simplified_chars": 141
+    },
+    {
+      "id": "46",
+      "pages": [
+        57,
+        58,
+        59
+      ],
+      "traditional_chars": 296,
+      "simplified_chars": 296
+    },
+    {
+      "id": "47",
+      "pages": [
+        59
+      ],
+      "traditional_chars": 187,
+      "simplified_chars": 187
+    },
+    {
+      "id": "48",
+      "pages": [
+        59
+      ],
+      "traditional_chars": 307,
+      "simplified_chars": 307
+    },
+    {
+      "id": "49",
+      "pages": [
+        59,
+        60
+      ],
+      "traditional_chars": 335,
+      "simplified_chars": 335
+    },
+    {
+      "id": "50",
+      "pages": [
+        60
+      ],
+      "traditional_chars": 399,
+      "simplified_chars": 399
+    },
+    {
+      "id": "51",
+      "pages": [
+        60
+      ],
+      "traditional_chars": 37,
+      "simplified_chars": 37
+    },
+    {
+      "id": "52",
+      "pages": [
+        60
+      ],
+      "traditional_chars": 242,
+      "simplified_chars": 242
+    },
+    {
+      "id": "53",
+      "pages": [
+        60,
+        61
+      ],
+      "traditional_chars": 101,
+      "simplified_chars": 101
+    },
+    {
+      "id": "54",
+      "pages": [
+        61
+      ],
+      "traditional_chars": 104,
+      "simplified_chars": 104
+    },
+    {
+      "id": "55",
+      "pages": [
+        61
+      ],
+      "traditional_chars": 61,
+      "simplified_chars": 61
+    },
+    {
+      "id": "56",
+      "pages": [
+        61
+      ],
+      "traditional_chars": 299,
+      "simplified_chars": 299
+    },
+    {
+      "id": "57",
+      "pages": [
+        61
+      ],
+      "traditional_chars": 285,
+      "simplified_chars": 285
+    },
+    {
+      "id": "58",
+      "pages": [
+        61,
+        62
+      ],
+      "traditional_chars": 54,
+      "simplified_chars": 54
+    },
+    {
+      "id": "59",
+      "pages": [
+        62
+      ],
+      "traditional_chars": 140,
+      "simplified_chars": 140
+    },
+    {
+      "id": "60",
+      "pages": [
+        62,
+        63
+      ],
+      "traditional_chars": 80,
+      "simplified_chars": 80
+    },
+    {
+      "id": "61",
+      "pages": [
+        63,
+        64,
+        65,
+        66,
+        67
+      ],
+      "traditional_chars": 3593,
+      "simplified_chars": 3593
+    },
+    {
+      "id": "62",
+      "pages": [
+        67
+      ],
+      "traditional_chars": 882,
+      "simplified_chars": 882
+    },
+    {
+      "id": "63",
+      "pages": [
+        67,
+        68,
+        69,
+        70
+      ],
+      "traditional_chars": 1130,
+      "simplified_chars": 1130
+    },
+    {
+      "id": "64",
+      "pages": [
+        70
+      ],
+      "traditional_chars": 180,
+      "simplified_chars": 180
+    },
+    {
+      "id": "65",
+      "pages": [
+        70
+      ],
+      "traditional_chars": 203,
+      "simplified_chars": 203
+    },
+    {
+      "id": "66",
+      "pages": [
+        70
+      ],
+      "traditional_chars": 336,
+      "simplified_chars": 336
+    },
+    {
+      "id": "67",
+      "pages": [
+        70
+      ],
+      "traditional_chars": 71,
+      "simplified_chars": 71
+    },
+    {
+      "id": "68",
+      "pages": [
+        70
+      ],
+      "traditional_chars": 169,
+      "simplified_chars": 169
+    },
+    {
+      "id": "69",
+      "pages": [
+        70,
+        71
+      ],
+      "traditional_chars": 521,
+      "simplified_chars": 521
+    },
+    {
+      "id": "70",
+      "pages": [
+        71
+      ],
+      "traditional_chars": 94,
+      "simplified_chars": 94
+    },
+    {
+      "id": "71",
+      "pages": [
+        71
+      ],
+      "traditional_chars": 290,
+      "simplified_chars": 290
+    },
+    {
+      "id": "72",
+      "pages": [
+        71
+      ],
+      "traditional_chars": 94,
+      "simplified_chars": 94
+    },
+    {
+      "id": "73",
+      "pages": [
+        71,
+        72
+      ],
+      "traditional_chars": 80,
+      "simplified_chars": 80
+    },
+    {
+      "id": "74",
+      "pages": [
+        72,
+        73
+      ],
+      "traditional_chars": 87,
+      "simplified_chars": 87
+    },
+    {
+      "id": "75",
+      "pages": [
+        73,
+        74,
+        75
+      ],
+      "traditional_chars": 991,
+      "simplified_chars": 991
+    },
+    {
+      "id": "76",
+      "pages": [
+        75
+      ],
+      "traditional_chars": 241,
+      "simplified_chars": 241
+    },
+    {
+      "id": "77",
+      "pages": [
+        75,
+        76
+      ],
+      "traditional_chars": 232,
+      "simplified_chars": 232
+    },
+    {
+      "id": "78",
+      "pages": [
+        76
+      ],
+      "traditional_chars": 244,
+      "simplified_chars": 244
+    },
+    {
+      "id": "79",
+      "pages": [
+        76
+      ],
+      "traditional_chars": 442,
+      "simplified_chars": 442
+    },
+    {
+      "id": "80",
+      "pages": [
+        76,
+        77
+      ],
+      "traditional_chars": 457,
+      "simplified_chars": 457
+    },
+    {
+      "id": "INTRO",
+      "pages": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "traditional_chars": 8269,
+      "simplified_chars": 8269
+    },
+    {
+      "id": "S1_NOTES",
+      "pages": [
+        78,
+        79,
+        80,
+        81
+      ],
+      "traditional_chars": 5794,
+      "simplified_chars": 5794
+    },
+    {
+      "id": "S2",
+      "pages": [
+        82,
+        83,
+        84
+      ],
+      "traditional_chars": 2843,
+      "simplified_chars": 2843
+    },
+    {
+      "id": "S3",
+      "pages": [
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94
+      ],
+      "traditional_chars": 9386,
+      "simplified_chars": 9386
+    },
+    {
+      "id": "S4",
+      "pages": [
+        95,
+        96
+      ],
+      "traditional_chars": 379,
+      "simplified_chars": 379
+    }
+  ]
+}

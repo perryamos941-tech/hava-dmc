@@ -103,3 +103,12 @@ img{max-width:100%}
 /* v2.2 four top-level navigation items */
 @media(min-width:701px){.main-nav{flex-wrap:wrap}}
 @media(max-width:700px){.main-nav{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+
+/* v2.5.7 — confirmed English/Chinese wording differences, distinct from deed text */
+.dmc-inline-discrepancy{display:block;color:#a01722!important;font:700 13px/1.7 system-ui,"Noto Sans TC",sans-serif!important;background:#fff1ef;border-left:4px solid #c72a35;margin:11px 0 13px;padding:10px 12px;border-radius:7px;white-space:normal;overflow-wrap:anywhere}
+.dmc-inline-discrepancy a,.dmc-discrepancy-summary a{color:#991b26!important;text-decoration:underline;text-underline-offset:3px}
+.dmc-discrepancy-summary{color:#951726!important;background:#fff3f1;border:1px solid #ebbbbd;border-left:4px solid #b82732;border-radius:8px;padding:10px 12px;font-size:12px;font-weight:700;line-height:1.6;margin:12px 0}
+[data-theme=dark] .dmc-inline-discrepancy,[data-theme=dark] .dmc-discrepancy-summary{background:#402329;color:#ffd7d8!important;border-color:#c85a60}
+[data-theme=dark] .dmc-inline-discrepancy a,[data-theme=dark] .dmc-discrepancy-summary a{color:#ffbfc5!important}
+@media(max-width:600px){.dmc-inline-discrepancy{font-size:12px;padding:10px;line-height:1.6}}

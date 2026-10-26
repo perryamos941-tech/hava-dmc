@@ -1,4 +1,4 @@
-"""HAVA v2.5.1 static repository preflight; only standard library is required."""
+"""HAVA v2.5.5 static repository preflight; only standard library is required."""
 from pathlib import Path
 import argparse, json, hashlib, sys
 ROOT=Path(__file__).resolve().parents[1]
