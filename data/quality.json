@@ -1,5 +1,5 @@
 {
-  "siteVersion": "2.5.2",
+  "siteVersion": "2.5.4",
   "sourceId": "SPHA_20260817",
   "currentBrochure": {
     "filename": "SPHA_20260817.pdf",
@@ -131,5 +131,18 @@
     "changesCompared2025vs2026": 5,
     "sourceEditionSha256": "ce837689896a123ff95ad331ec1358173e5373b883f03d317c3db7fee1890bdc",
     "limitations": "對PDF機器可提取的數字及勾號逐格反向核對，未能代表所有圖則邊界、DMC中文條款、現場設備或每一個房間文字均完成人工法律認證。"
+  },
+  "independentReviewV253": {
+    "reviewDate": "2026-10-24",
+    "sourceFile": "SPHA_20260817.pdf",
+    "checkedSourceModels": 98,
+    "checkedApplianceCategoryBrandRows": 98,
+    "correctedApplianceCategoryRecords": 74,
+    "correctedApplianceBrandRecords": 2,
+    "restoredChineseMELabels": 75,
+    "verifiedApplianceChecks": 788,
+    "verifiedMEQuantityCells": 2950,
+    "areaTemplatesChecked": 64,
+    "limits": "Programmatic merged-cell and text-geometry audit; not independent professional inspection of floor-plan crop or legal DMC translations."
   }
 }

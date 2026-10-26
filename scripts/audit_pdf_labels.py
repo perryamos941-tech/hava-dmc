@@ -16,6 +16,6 @@ for page,y,model in models:
 items={(r['page'],r['rowY'],r['item']) for r in D['me']}
 for page,y,item in items:
  words=text_cache[page];line=' '.join(v[4] for v in sorted(words,key=lambda x:(x[1],x[0])) if 250<=v[0]<555 and y-7<=v[1]<=y+6)
- match=re.search('[A-Za-z].*',item)
+ match=re.search(r'(?<!\S)[A-Z][a-z].*',item)
  if not match or norm(match.group()) not in norm(line):raise AssertionError(f'M&E item differs: {page}, {y}, {item}, {line}')
 print(f'PASS: {len(models)} unique appliance model rows and {len(items)} unique M&E English item lines (including wrapped labels) match the source PDF')

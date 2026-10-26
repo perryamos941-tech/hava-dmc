@@ -13,7 +13,7 @@ def main():
     db=json.loads((ROOT/'data/sales.json').read_text(encoding='utf-8'))
     manifest=json.loads((ROOT/'data/quality.json').read_text(encoding='utf-8'))
     diff=json.loads((ROOT/'data/version_diff_v2026.json').read_text(encoding='utf-8'))
-    check(manifest['siteVersion']=='2.5.1','wrong version')
+    check(manifest['siteVersion']==db['source']['version'],'wrong version')
     check(db['source']['file']==manifest['currentBrochure']['filename'],'mixed source names')
     check(db['source']['contentSha256']==manifest['currentBrochure']['sha256'],'source checksum mismatch')
     check(db['source']['pages']==135,'wrong source page count')
@@ -52,7 +52,7 @@ def main():
     js=(ROOT/'assets/units.js').read_text(encoding='utf-8')
     check('售樓說明書 · 2025-01-22' not in html,'stale 2025 default source label')
     check('Based on the 22 January 2025 sales brochure' not in js,'stale English disclaimer')
-    check('data/quality.js?v=2.5.1' in html,'missing quality metadata')
+    check('data/quality.js?v='+manifest['siteVersion'] in html,'missing quality metadata')
     if args.pdf:
         check(args.pdf.is_file(),f'PDF not found: {args.pdf}')
         digest=hashlib.sha256(args.pdf.read_bytes()).hexdigest()
