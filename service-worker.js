@@ -1,6 +1,6 @@
 /* v1.8: network-first for document and CSS/JS; no stale mobile layout after updates. */
-const CACHE='hava-dmc-drawings-v2.5.7';
-const CORE=['./','./index.html','./app.js','./style.css','./data/content.js','./assets/icon.svg','./manifest.webmanifest','./units.html','./drawings.html','./assets/units.js','./data/sales.json','./data/sales.js','./quality.html','./chinese.html','./data/quality.js'];
+const CACHE='hava-dmc-v2.6.0';
+const CORE=['./','./index.html','./app.js','./style.css','./data/content.js','./assets/icon.svg','./manifest.webmanifest','./units.html','./drawings.html','./assets/units.js','./data/sales.js','./quality.html','./chinese.html','./data/quality.js','./assets/site-nav-v26.css'];
 const THUMBS=Array.from({length:11},(_,i)=>`./plans/thumb-${77+i}.webp`);
 self.addEventListener('install',event=>event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll([...CORE,...THUMBS])).then(()=>self.skipWaiting())));
 self.addEventListener('activate',event=>event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(key=>key.startsWith('hava-dmc-')&&key!==CACHE).map(key=>caches.delete(key)))).then(()=>self.clients.claim())));

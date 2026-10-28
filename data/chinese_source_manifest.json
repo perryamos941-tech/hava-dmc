@@ -5,9 +5,9 @@
     "pdfPages": 98,
     "sourceDate": "2025-11-25",
     "sha256": "4dfcc4779fb987a6b2d914d628838ed204b4062e9e376fbe4bf28f81c37a011e",
-    "provenance": "Uploaded by user and identified as official Chinese version; v9 engrossment clean PDF. Independent confirmation of certification, land registry status and equivalence to registered English DMC not provided.",
+    "provenance": "Provided by user as Chinese DMC; certification and Land Registry registration status have not been independently verified. Five English-Chinese discrepancies are annotated.",
     "reviewStatus": "confirmed_material_differences_in_8c_8e_10_13a_62_no_full_sentence_signoff",
-    "translationMethod": "Traditional: document text extracted verbatim (layout line wraps normalized only); Simplified: ICU Traditional-Simplified text conversion, not official legal version",
+    "translationMethod": "Traditional Chinese: Chinese DMC document text provided by user, reproduced with text extraction; Simplified: conversion of that source, not an independent document.",
     "scNote": "簡體中文為自動字形及詞彙轉換版，不屬文件原件。",
     "originalChinesePdfNotPublic": "Chinese PDF was provided privately; public PDF controls point to registered English version."
   },

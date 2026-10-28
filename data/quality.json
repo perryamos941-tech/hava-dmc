@@ -1,1 +1,148 @@
-{"siteVersion":"2.5.5","sourceId":"SPHA_20260817","currentBrochure":{"filename":"SPHA_20260817.pdf","documentPages":135,"url":"https://www.thehava.hk/upload/salesbrochure/SPHA_20260817.pdf","sha256":"ce837689896a123ff95ad331ec1358173e5373b883f03d317c3db7fee1890bdc","fileNameDate":"2026-08-17","printedDate":"2025-01-22","latestExaminationEntry":"2026-08-27","dateNote":"檔名日期、內頁印製日期和檢視記錄日期屬不同概念；不得將檔名日期當成最後修訂日期。","areasPdfPages":"50–64","appliancesPdfPages":"105–110","appliancesPrintedPages":"103–108","mechanicalPdfPages":"111–119"},"dmc":{"filename":"HAVA_DMC_dd_20251125_Reg20251209.pdf","url":"https://www.thehava.hk/upload/dmc/HAVA_DMC_dd_20251125_Reg20251209.pdf","translationStatus":"unofficial_unreviewed","statement":"DMC中文內容包含非官方初譯或濃縮稿，並非逐條完成法律審閱；正式登記公契英文原文及有效修訂為準。"},"comparison":{"area":"2026版64種唯一單位面積行的平方米、平方呎、露台與工作平台欄位經來源文字座標逐格核對，覆蓋594個單位實例。","appliances":"2026版全部788個勾號與網站適用資料逐格雙向比較吻合；型號名稱仍屬PDF文字擷取，不代表現場安裝認證。","mechanical":"以2026年PDF反向核對機電表全2,950個非空數值格；原2,898格數值吻合，發現並補回52格遺漏，另保留5格2025→2026變動追蹤。","images":"26張售樓圖則及64個單位局部圖由2026上傳PDF重新產生"},"counts":{"units":594,"applianceRecords":788,"mechanicalRecords":2950,"drawingPages":26,"unitCrops":64,"dmcDrawings":11,"area_version_compared":0,"appliance_coordinate":0,"appliance_sample_reviewed":11,"me_coordinate":2945,"me_revised_cell":5,"area_pdf_template_crosschecked":594,"appliance_pdf_crosschecked":777,"me_pdf_crosschecked":2945,"me_omissions_repaired":52},"auditRules":{"version_compared_not_individually_checked":"兩版表格一致；每個數值未必逐格人工覆核","coordinate_extracted":"以PDF文字／欄格座標抽取；待逐格人工核對","sample_row_reviewed":"已抽樣逐行核對原表中的1A座標準樓層E欄，並比較兩版本設備表","version_change_reconciled":"2026版修訂格已與2025版逐格比對並修正數量","pdf_coordinate_crosschecked":"2026年來源PDF每個欄位的數字／剔號，已以座標程式逐格核對；不是人工簽證，房間／設備名稱及現場安裝仍可能與資料有差異。","pdf_area_template_crosschecked":"全部64種唯一面積模板逐行對照新版PDF的平方米、平方呎、露台及工作平台；594個單位實例依對應模板展開。"},"qaRunDate":"2026-10-24","revisedMechanicalCells":[{"pdfPage":112,"printedPage":110,"tower":"1A","floorGroup":"2","unit":"B","room":"廚房／開放式廚房 Kitchen / Open Kitchen","item":"燈位 Lighting Point","2025":2,"2026":3,"x0":613.4,"y0":482.8},{"pdfPage":112,"printedPage":110,"tower":"1A","floorGroup":"standard","unit":"B","room":"廚房／開放式廚房 Kitchen / Open Kitchen","item":"燈位 Lighting Point","2025":2,"2026":3,"x0":842.9,"y0":482.8},{"pdfPage":117,"printedPage":115,"tower":"2","floorGroup":"27","unit":"A","room":"客廳／飯廳 Living Room / Dining Room","item":"雙位電插座 Twin Socket Outlet","2025":2,"2026":1,"x0":1031.9,"y0":277.3},{"pdfPage":117,"printedPage":115,"tower":"2","floorGroup":"27","unit":"A","room":"客廳／飯廳 Living Room / Dining Room","item":"單位電插座 Single Socket Outlet","2025":1,"2026":2,"x0":1031.9,"y0":291.9},{"pdfPage":117,"printedPage":115,"tower":"2","floorGroup":"27","unit":"D","room":"客廳／飯廳 Living Room / Dining Room","item":"燈位 Lighting Point","2025":3,"2026":5,"x0":1098.7,"y0":335.8}],"auditCoverage":{"mode":"automatic_bi_directional_source_pdf_grid","areaTemplates":64,"areaUnitInstances":594,"applianceCheckmarks":788,"mechanicalOriginalChecked":2898,"mechanicalMissingReinstated":52,"mechanicalSourceNonEmptyCells":2950,"changesCompared2025vs2026":5,"sourceEditionSha256":"ce837689896a123ff95ad331ec1358173e5373b883f03d317c3db7fee1890bdc","limitations":"對PDF機器可提取的數字及勾號逐格反向核對，未能代表所有圖則邊界、DMC中文條款、現場設備或每一個房間文字均完成人工法律認證。"},"independentReviewV253":{"reviewDate":"2026-10-24","sourceFile":"SPHA_20260817.pdf","checkedSourceModels":98,"checkedApplianceCategoryBrandRows":98,"correctedApplianceCategoryRecords":74,"correctedApplianceBrandRecords":2,"restoredChineseMELabels":75,"verifiedApplianceChecks":788,"verifiedMEQuantityCells":2950,"areaTemplatesChecked":64,"limits":"Programmatic merged-cell and text-geometry audit; not independent professional inspection of floor-plan crop or legal DMC translations."}}
+{
+  "siteVersion": "2.6.0",
+  "sourceId": "SPHA_20260817",
+  "currentBrochure": {
+    "filename": "SPHA_20260817.pdf",
+    "documentPages": 135,
+    "url": "https://www.thehava.hk/upload/salesbrochure/SPHA_20260817.pdf",
+    "sha256": "ce837689896a123ff95ad331ec1358173e5373b883f03d317c3db7fee1890bdc",
+    "fileNameDate": "2026-08-17",
+    "printedDate": "2025-01-22",
+    "latestExaminationEntry": "2026-08-27",
+    "dateNote": "檔名日期、內頁印製日期和檢視記錄日期屬不同概念；不得將檔名日期當成最後修訂日期。",
+    "areasPdfPages": "50–64",
+    "appliancesPdfPages": "105–110",
+    "appliancesPrintedPages": "103–108",
+    "mechanicalPdfPages": "111–119"
+  },
+  "dmc": {
+    "filename": "HAVA_DMC_dd_20251125_Reg20251209.pdf",
+    "url": "https://www.thehava.hk/upload/dmc/HAVA_DMC_dd_20251125_Reg20251209.pdf",
+    "translationStatus": "traditional_chinese_document_user_provided_status_not_independently_certified",
+    "statement": "繁體中文正文直接取自使用者提供的98頁中文公契文件（非AI生成）；簡體中文為程式轉換。中文版認證／登記狀態及英中全文一致性未經獨立核實，已確認5處文字差異；法律核對以正式登記英文公契及其有效修訂為準。"
+  },
+  "comparison": {
+    "area": "2026版64種唯一單位面積行的平方米、平方呎、露台與工作平台欄位經來源文字座標逐格核對，覆蓋594個單位實例。",
+    "appliances": "2026版全部788個勾號與網站適用資料逐格雙向比較吻合；型號名稱仍屬PDF文字擷取，不代表現場安裝認證。",
+    "mechanical": "以2026年PDF反向核對機電表全2,950個非空數值格；原2,898格數值吻合，發現並補回52格遺漏，另保留5格2025→2026變動追蹤。",
+    "images": "26張售樓圖則及64個單位局部圖由2026上傳PDF重新產生"
+  },
+  "counts": {
+    "units": 594,
+    "applianceRecords": 788,
+    "mechanicalRecords": 2950,
+    "drawingPages": 26,
+    "unitCrops": 64,
+    "dmcDrawings": 11,
+    "area_version_compared": 0,
+    "appliance_coordinate": 0,
+    "appliance_sample_reviewed": 11,
+    "me_coordinate": 2945,
+    "me_revised_cell": 5,
+    "area_pdf_template_crosschecked": 594,
+    "appliance_pdf_crosschecked": 777,
+    "me_pdf_crosschecked": 2945,
+    "me_omissions_repaired": 52
+  },
+  "auditRules": {
+    "version_compared_not_individually_checked": "兩版表格一致；每個數值未必逐格人工覆核",
+    "coordinate_extracted": "以PDF文字／欄格座標抽取；待逐格人工核對",
+    "sample_row_reviewed": "已抽樣逐行核對原表中的1A座標準樓層E欄，並比較兩版本設備表",
+    "version_change_reconciled": "2026版修訂格已與2025版逐格比對並修正數量",
+    "pdf_coordinate_crosschecked": "2026年來源PDF每個欄位的數字／剔號，已以座標程式逐格核對；不是人工簽證，房間／設備名稱及現場安裝仍可能與資料有差異。",
+    "pdf_area_template_crosschecked": "全部64種唯一面積模板逐行對照新版PDF的平方米、平方呎、露台及工作平台；594個單位實例依對應模板展開。"
+  },
+  "qaRunDate": "2026-10-24",
+  "revisedMechanicalCells": [
+    {
+      "pdfPage": 112,
+      "printedPage": 110,
+      "tower": "1A",
+      "floorGroup": "2",
+      "unit": "B",
+      "room": "廚房／開放式廚房 Kitchen / Open Kitchen",
+      "item": "燈位 Lighting Point",
+      "2025": 2,
+      "2026": 3,
+      "x0": 613.4,
+      "y0": 482.8
+    },
+    {
+      "pdfPage": 112,
+      "printedPage": 110,
+      "tower": "1A",
+      "floorGroup": "standard",
+      "unit": "B",
+      "room": "廚房／開放式廚房 Kitchen / Open Kitchen",
+      "item": "燈位 Lighting Point",
+      "2025": 2,
+      "2026": 3,
+      "x0": 842.9,
+      "y0": 482.8
+    },
+    {
+      "pdfPage": 117,
+      "printedPage": 115,
+      "tower": "2",
+      "floorGroup": "27",
+      "unit": "A",
+      "room": "客廳／飯廳 Living Room / Dining Room",
+      "item": "雙位電插座 Twin Socket Outlet",
+      "2025": 2,
+      "2026": 1,
+      "x0": 1031.9,
+      "y0": 277.3
+    },
+    {
+      "pdfPage": 117,
+      "printedPage": 115,
+      "tower": "2",
+      "floorGroup": "27",
+      "unit": "A",
+      "room": "客廳／飯廳 Living Room / Dining Room",
+      "item": "單位電插座 Single Socket Outlet",
+      "2025": 1,
+      "2026": 2,
+      "x0": 1031.9,
+      "y0": 291.9
+    },
+    {
+      "pdfPage": 117,
+      "printedPage": 115,
+      "tower": "2",
+      "floorGroup": "27",
+      "unit": "D",
+      "room": "客廳／飯廳 Living Room / Dining Room",
+      "item": "燈位 Lighting Point",
+      "2025": 3,
+      "2026": 5,
+      "x0": 1098.7,
+      "y0": 335.8
+    }
+  ],
+  "auditCoverage": {
+    "mode": "automatic_bi_directional_source_pdf_grid",
+    "areaTemplates": 64,
+    "areaUnitInstances": 594,
+    "applianceCheckmarks": 788,
+    "mechanicalOriginalChecked": 2898,
+    "mechanicalMissingReinstated": 52,
+    "mechanicalSourceNonEmptyCells": 2950,
+    "changesCompared2025vs2026": 5,
+    "sourceEditionSha256": "ce837689896a123ff95ad331ec1358173e5373b883f03d317c3db7fee1890bdc",
+    "limitations": "對PDF機器可提取的數字及勾號逐格反向核對，未能代表所有圖則邊界、DMC中文條款、現場設備或每一個房間文字均完成人工法律認證。"
+  },
+  "independentReviewV253": {
+    "reviewDate": "2026-10-24",
+    "sourceFile": "SPHA_20260817.pdf",
+    "checkedSourceModels": 98,
+    "checkedApplianceCategoryBrandRows": 98,
+    "correctedApplianceCategoryRecords": 74,
+    "correctedApplianceBrandRecords": 2,
+    "restoredChineseMELabels": 75,
+    "verifiedApplianceChecks": 788,
+    "verifiedMEQuantityCells": 2950,
+    "areaTemplatesChecked": 64,
+    "limits": "Programmatic merged-cell and text-geometry audit; not independent professional inspection of floor-plan crop or legal DMC translations."
+  }
+}
