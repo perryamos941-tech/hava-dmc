@@ -1,0 +1,39 @@
+{
+  "siteVersion": "2.6.3",
+  "releaseName": "正式售樓圖則無損 WebP 品質升級（其他功能保持不變）",
+  "dmcEnglishPdf": "https://www.thehava.hk/upload/dmc/HAVA_DMC_dd_20251125_Reg20251209.pdf",
+  "dmcTraditionalSource": "SPH Site A DMC v9 engrossment clean-Chinese.pdf",
+  "simplifiedStatus": "Converted from user-provided Traditional Chinese; not a separately certified deed",
+  "brochurePdf": "https://www.thehava.hk/upload/salesbrochure/SPHA_20260817.pdf",
+  "knownDmcDifferences": [
+    "8(c)",
+    "8(e)",
+    "10",
+    "13(a)",
+    "62"
+  ],
+  "legalReviewStatus": "Five confirmed differences; full bilingual sentence-level legal verification not completed",
+  "dataRecordCounts": {
+    "units": 594,
+    "appliances": 788,
+    "mechanical": 2950
+  },
+  "drawingDownloads": {
+    "dmc": {
+      "count": 11,
+      "format": "JPG",
+      "source": "plans/plan-{page}.jpg"
+    },
+    "sales": {
+      "count": 26,
+      "format": "WebP",
+      "source": "brochure/drawing-{page}.webp",
+      "compression": "WebP lossless VP8L; rendered from SPHA_20260817.pdf at 1846 x 1305 pixels"
+    },
+    "unitCrop": {
+      "format": "WebP",
+      "source": "per-unit indexed image",
+      "warning": "Partial, not legal boundaries"
+    }
+  }
+}
