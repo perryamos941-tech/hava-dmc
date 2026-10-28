@@ -112,3 +112,6 @@ img{max-width:100%}
 [data-theme=dark] .dmc-inline-discrepancy,[data-theme=dark] .dmc-discrepancy-summary{background:#402329;color:#ffd7d8!important;border-color:#c85a60}
 [data-theme=dark] .dmc-inline-discrepancy a,[data-theme=dark] .dmc-discrepancy-summary a{color:#ffbfc5!important}
 @media(max-width:600px){.dmc-inline-discrepancy{font-size:12px;padding:10px;line-height:1.6}}
+
+/* v2.6.2 full-resolution drawing download controls */
+.plan-tile-actions{display:grid;grid-template-columns:repeat(3,minmax(0,1fr))}.plan-tile-actions .secondary-btn,.plan-tile-actions .link-btn{min-width:0;overflow-wrap:anywhere;text-align:center;display:inline-flex;align-items:center;justify-content:center;min-height:42px}.plan-bottom-links a{min-height:35px;display:inline-flex;align-items:center}.plan-tile-actions .link-btn[download]{background:#e6f5ed;color:#095c53;border:1px solid #a7d9c9;border-radius:9px}.plan-lightbox-bottom{flex-wrap:wrap}@media(max-width:390px){.plan-tile-actions{gap:5px}.plan-tile-actions .secondary-btn,.plan-tile-actions .link-btn{padding:7px 3px;font-size:11px}.plan-lightbox-bottom .plan-bottom-links{gap:9px}}
